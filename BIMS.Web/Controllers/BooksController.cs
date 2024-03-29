@@ -70,7 +70,6 @@ namespace BIMS.Web.Controllers
 
 			return Ok(new { recordsFiltered = recordsTotal, recordsTotal, data = mappedData });
 		}
-
 		public IActionResult Details(int id)
 		{
 			var book = _context.Books
