@@ -86,11 +86,13 @@ namespace BIMS.Web.Controllers
 
 			return View(model);
 		}
+
 		public IActionResult Create()
 		{
 			var viewModel = PopulateViewModel();
 			return View(viewModel);
 		}
+
 		[HttpPost]
 		[ValidateAntiForgeryToken]
 		public async Task<IActionResult> Create(BookViewModel model)
