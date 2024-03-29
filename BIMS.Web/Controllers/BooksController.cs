@@ -42,6 +42,7 @@ namespace BIMS.Web.Controllers
 		{
 			return View();
 		}
+
 		[AjaxOnly]
 		[HttpPost]
 		public IActionResult GetBooks()
