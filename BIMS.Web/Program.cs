@@ -1,11 +1,11 @@
-using Bookify.Web.Core.Mapping;
-using Bookify.Web.Seeds;
+using BIMS.Web.Core.Mapping;
+using BIMS.Web.Seeds;
 using Microsoft.AspNetCore.Identity;
 using System.Reflection;
 using UoN.ExpressiveAnnotations.NetCore.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
-using Bookify.Web.Data;
-using Bookify.Web.Helpers;
+using BIMS.Web.Data;
+using BIMS.Web.Helpers;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity.UI.Services;
 
@@ -95,11 +95,27 @@ var scopeFactory = app.Services.GetRequiredService<IServiceScopeFactory>();
 
 using var scope = scopeFactory.CreateScope();
 
+try
+{
+	var context = scope.ServiceProvider.GetService<ApplicationDbContext>();
+	if (context != null)
+	{
+		await context.Database.EnsureDeletedAsync();
+		await context.Database.MigrateAsync();
+	}
+}
+catch (Exception ex)
+{
+	// Add Logger 
+}
+
 var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
 var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
 
 await DeafultRoles.SeedAsync(roleManager);
 await DefaultUsers.SeedAdminUserAsync(userManager);
+
+
 
 app.MapControllerRoute(
 	name: "default",

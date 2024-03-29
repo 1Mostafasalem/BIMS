@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
-namespace Bookify.Web.Data
+namespace BIMS.Web.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {

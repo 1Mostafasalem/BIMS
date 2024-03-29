@@ -1,7 +1,7 @@
-﻿using Bookify.Web.Core.Models;
+﻿using BIMS.Web.Core.Models;
 using System.Security.Claims;
 
-namespace Bookify.Web.Controllers
+namespace BIMS.Web.Controllers
 {
     [Authorize(Roles = AppRoles.Archive)]
     public class CategoriesController : Controller

@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using UoN.ExpressiveAnnotations.NetCore.Attributes;
 
-namespace Bookify.Web.Core.ViewModels
+namespace BIMS.Web.Core.ViewModels
 {
     public class BookViewModel
     {

@@ -2,13 +2,13 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 #nullable disable
 
-using Bookify.Web.Core.Models;
+using BIMS.Web.Core.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace Bookify.Web.Areas.Identity.Pages.Account.Manage
+namespace BIMS.Web.Areas.Identity.Pages.Account.Manage
 {
     /// <summary>
     ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used

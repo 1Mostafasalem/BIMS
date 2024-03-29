@@ -1,4 +1,4 @@
-﻿namespace Bookify.Web.Core.Mapping
+﻿namespace BIMS.Web.Core.Mapping
 {
     public class MappingProfile : Profile
     {

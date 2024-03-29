@@ -1,4 +1,4 @@
-﻿using Bookify.Web.Filters;
+﻿using BIMS.Web.Filters;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -8,7 +8,7 @@ using System.Text.Encodings.Web;
 using System.Text;
 using static System.Net.WebRequestMethods;
 
-namespace Bookify.Web.Controllers
+namespace BIMS.Web.Controllers
 {
     [Authorize(Roles = AppRoles.Admin)]
     public class UsersController : Controller

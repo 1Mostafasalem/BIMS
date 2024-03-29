@@ -4,13 +4,13 @@
 
 using System;
 using System.Threading.Tasks;
-using Bookify.Web.Core.Models;
+using BIMS.Web.Core.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace Bookify.Web.Areas.Identity.Pages.Account.Manage
+namespace BIMS.Web.Areas.Identity.Pages.Account.Manage
 {
     public class ResetAuthenticatorModel : PageModel
     {

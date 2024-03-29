@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace Bookify.Web.Controllers
+namespace BIMS.Web.Controllers
 {
     [Authorize]
     public class HomeController : Controller

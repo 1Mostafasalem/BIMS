@@ -1,4 +1,4 @@
-﻿namespace Bookify.Web.Core.Consts
+﻿namespace BIMS.Web.Core.Consts
 {
     public static class RegexPatterns
     {

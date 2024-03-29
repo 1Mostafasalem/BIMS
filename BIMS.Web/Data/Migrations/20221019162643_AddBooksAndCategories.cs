@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Bookify.Web.Data.Migrations
+namespace BIMS.Web.Data.Migrations
 {
     public partial class AddBooksAndCategories : Migration
     {

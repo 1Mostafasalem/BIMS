@@ -1,4 +1,4 @@
-﻿namespace Bookify.Web.Settings
+﻿namespace BIMS.Web.Settings
 {
     public class MailSetting
     {

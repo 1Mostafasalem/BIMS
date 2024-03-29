@@ -1,6 +1,6 @@
-﻿using Bookify.Web.Core.Consts;
+﻿using BIMS.Web.Core.Consts;
 
-namespace Bookify.Web.Core.ViewModels
+namespace BIMS.Web.Core.ViewModels
 {
     public class BookCopyViewModel
     {

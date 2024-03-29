@@ -1,5 +1,5 @@
-﻿using Bookify.Web.Core.Models;
-using Bookify.Web.Settings;
+﻿using BIMS.Web.Core.Models;
+using BIMS.Web.Settings;
 using CloudinaryDotNet;
 using CloudinaryDotNet.Actions;
 using Microsoft.Extensions.Options;
@@ -9,7 +9,7 @@ using System.IO;
 using System.Linq;
 using System.Linq.Dynamic.Core;
 
-namespace Bookify.Web.Controllers
+namespace BIMS.Web.Controllers
 {
 	public class BooksController : Controller
 	{

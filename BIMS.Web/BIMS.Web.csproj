@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-Bookify.Web-875AC816-FEB4-4ED2-8F17-BCBF3A313290</UserSecretsId>
+    <!--<UserSecretsId>aspnet-BIMS.Web-875AC816-FEB4-4ED2-8F17-BCBF3A313290</UserSecretsId>-->
   </PropertyGroup>
 
   <ItemGroup>

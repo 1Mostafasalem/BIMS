@@ -1,4 +1,4 @@
-﻿namespace Bookify.Web.Core.Models
+﻿namespace BIMS.Web.Core.Models
 {
     public class BookCopy : BaseModel
     {

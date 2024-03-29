@@ -3,7 +3,7 @@ using Microsoft.Extensions.Options;
 using System.Net;
 using System.Net.Mail;
 
-namespace Bookify.Web.Services
+namespace BIMS.Web.Services
 {
     public class EmailSender : IEmailSender
     {

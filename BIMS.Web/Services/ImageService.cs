@@ -1,6 +1,6 @@
-﻿using Bookify.Web.Core.Models;
+﻿using BIMS.Web.Core.Models;
 
-namespace Bookify.Web.Services
+namespace BIMS.Web.Services
 {
 	public class ImageService : IImageService
 	{

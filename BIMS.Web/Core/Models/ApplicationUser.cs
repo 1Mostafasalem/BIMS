@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Bookify.Web.Core.Models
+namespace BIMS.Web.Core.Models
 {
     [Index(nameof(Email), IsUnique = true)]
     [Index(nameof(UserName), IsUnique = true)]

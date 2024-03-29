@@ -9,11 +9,11 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
-using Bookify.Web.Core.Models;
+using BIMS.Web.Core.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Logging;
 
-namespace Bookify.Web.Areas.Identity.Pages.Account
+namespace BIMS.Web.Areas.Identity.Pages.Account
 {
     public class LoginWith2faModel : PageModel
     {

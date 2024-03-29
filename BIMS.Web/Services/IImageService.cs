@@ -1,4 +1,4 @@
-﻿namespace Bookify.Web.Services
+﻿namespace BIMS.Web.Services
 {
 	public interface IImageService
 	{

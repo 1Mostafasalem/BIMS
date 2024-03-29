@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace Bookify.Web.Seeds
+namespace BIMS.Web.Seeds
 {
     public static class DefaultUsers
     {
@@ -9,7 +9,7 @@ namespace Bookify.Web.Seeds
             ApplicationUser admin = new()
             {
                 UserName = "admin",
-                Email = "admin@bookify.com",
+                Email = "admin@BIMS.com",
                 FullName = "Admin",
                 EmailConfirmed = true,
             };

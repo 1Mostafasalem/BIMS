@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Bookify.Web.Data.Migrations
+namespace BIMS.Web.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {

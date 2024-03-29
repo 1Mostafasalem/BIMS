@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Bookify.Web.Controllers
+namespace BIMS.Web.Controllers
 {
 
     [Authorize(Roles = AppRoles.Archive)]
