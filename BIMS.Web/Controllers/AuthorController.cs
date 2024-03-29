@@ -1,7 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System.Security.Claims;
-
-namespace BIMS.Web.Controllers
+﻿namespace BIMS.Web.Controllers
 {
     [Authorize(Roles = AppRoles.Archive)]
     public class AuthorController : Controller
